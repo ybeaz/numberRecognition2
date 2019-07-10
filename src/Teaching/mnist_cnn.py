@@ -67,4 +67,6 @@ def teachMnistCnn():
     score = model.evaluate(x_test, y_test, verbose=0)
     print('Test loss:', score[0])
     print('Test accuracy:', score[1])
-    return model
+    model.save('C:/Data/Dev/NumberRecognition2/models/weightsfile.h5')
+    del model
+    return #model
