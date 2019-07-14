@@ -33,7 +33,7 @@ with open('C:/Data/Dev/NumberRecognition/assets/t10k-images-idx3-ubyte.gz', 'rb'
 with open('C:/Data/Dev/NumberRecognition/assets/t10k-labels-idx1-ubyte.gz', 'rb') as f:
   y_test = extract_labels(f)
 
-print ('')
+print (' ')
 print ("Number of images for training:", x_train.shape[0])
 print ("Number of images used for testing:", x_test.shape[0])
 pix = int(np.sqrt(x_train.shape[1]))

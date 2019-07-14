@@ -34,7 +34,7 @@ imgArr = imageprepare(image_file_name)
 imgArr = np.array(imgArr)
 
 imgArrNp = np.array(imgArr)
-#xTestReshape = imgArrNp.reshape(1,28,28,1)
+#xTestReshape = imgArrNp.reshape(1,28,28,1) 
 xTestReshape = imgArrNp[np.newaxis, ..., np.newaxis]
 #print('[8]',xTestReshape.shape)
 #print('[9]',imgArr)
